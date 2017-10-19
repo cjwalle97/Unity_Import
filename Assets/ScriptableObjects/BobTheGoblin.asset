@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea889668a500b2e419e8d28c1bd0487a, type: 3}
+  m_Name: BobTheGoblin
+  m_EditorClassIdentifier: 
+  Name: Bob The Goblin
+  Health: 20
+  LootDrops: {fileID: 11400000, guid: 448af53e00c0bcd4896dd9e2c468048e, type: 2}
+  stats: {fileID: 11400000, guid: 8326ecfcb4926a046b6283aa111cd4a1, type: 2}
