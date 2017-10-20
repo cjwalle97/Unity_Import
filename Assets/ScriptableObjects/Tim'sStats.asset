@@ -11,11 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84e7d246b27ca0742aa42984a8ee6578, type: 3}
   m_Name: Tim'sStats
   m_EditorClassIdentifier: 
-  Health: 0
-  Mana: 0
-  Strength: 0
-  Dexterity: 0
-  Constitution: 0
-  Intelligence: 0
-  Wisdom: 0
-  Charisma: 0
+  Strength: 16
+  Dexterity: 10
+  Constitution: 16
+  Intelligence: 8
+  Wisdom: 10
+  Charisma: 14

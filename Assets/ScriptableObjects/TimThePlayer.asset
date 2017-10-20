@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Tim the Player
   stats: {fileID: 11400000, guid: 17cb134c90132d749936c20325dbf749, type: 2}
-  playerClass: {fileID: 0}
+  playerClass: {fileID: 11400000, guid: cae5750b3e220314ea60584f3ec8e712, type: 2}
