@@ -6,16 +6,10 @@ using UnityEngine;
 
 public class Stats : ScriptableObject
 {
-    [Range(1,25)]
-    public int Strength;
-    [Range(1, 25)]
-    public int Dexterity;
-    [Range(1, 25)]
-    public int Constitution;
-    [Range(1, 25)]
-    public int Intelligence;
-    [Range(1, 25)]
-    public int Wisdom;
-    [Range(1, 25)]
-    public int Charisma;
+    public int Strength {get; set;}
+    public int Dexterity {get; set;}
+    public int Constitution { get; set; }
+    public int Intelligence { get; set; }
+    public int Wisdom { get; set; }
+    public int Charisma { get; set; }
 }
