@@ -10,10 +10,10 @@ public class Player : ScriptableObject
     public Stats stats;
     public PlayerClass playerClass;
 
-    private int StrengthModifier;
-    private int DexterityModifier;
-    private int ConstitutionModifier;
-    private int IntelligenceModifier;
-    private int WisdomModifier;
-    private int CharismaModifier;
+    private int StrengthModifier { get; set; }
+    private int DexterityModifier { get; set; }
+    private int ConstitutionModifier { get; set; }
+    private int IntelligenceModifier { get; set; }
+    private int WisdomModifier { get; set; }
+    private int CharismaModifier { get; set; }
 }
