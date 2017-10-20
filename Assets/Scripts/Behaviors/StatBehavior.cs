@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class StatBehavior : MonoBehaviour
 {
-    public int Strength;
-    public int Dexterity;
-    public int Constitution;
-    public int Intelligence;
-    public int Wisdom;
-    public int Charisma = ;
+    public int Strength = 0;
+    public int Dexterity = 14;
+    public int Constitution = 14;
+    public int Intelligence = 10;
+    public int Wisdom = 8;
+    public int Charisma = 18;
 
     public int StrengthMod;
     public int DexterityMod;
@@ -42,10 +42,13 @@ public class StatBehavior : MonoBehaviour
     //20 = +5 modifier
     int FindModifier(int stat)
     {
-        int modifier;
+        int modifier = -6;
 
-        
-
-        return modifier
+        for(int i = stat; i >= 0; i--)
+        {
+            i -= 1;
+            modifier += 1;
+        }
+        return modifier;
     }
 }
